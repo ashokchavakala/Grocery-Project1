@@ -42,7 +42,7 @@
     text-align: center;
     justify-content: center;
     /* position: relative;
-    z-index: 2; */
+z-index: 2; */
 
 }
 
@@ -58,8 +58,8 @@
 }
 
 .sub-title-ds {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
     font-size: 20px
 }
 
@@ -67,10 +67,11 @@
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
-    padding: 4px 16px;
+    padding: 6px 17px;
     font-size: 16px;
     text-decoration: none;
     color: black;
+    transition: all 0.5s
 }
 
 .sub-title-btn:hover {
@@ -82,7 +83,7 @@
 /* parallax end  */
 
 
-/* flex - images  */
+/* flex - images  start*/
 .row1 {
     display: flex;
     flex-direction: row;
@@ -183,10 +184,11 @@ a {
 .read-more {
     color: white;
     background-color: red;
-    margin: 0px 0px 0px 107px;
+    margin: 0px 0px 0px 110px;
     font-size: small;
     font-weight: 600;
-    padding: 6px 20px;
+    padding: 8px 16px;
+    line-height: 50px;
 }
 
 .read-more:hover {
@@ -195,6 +197,7 @@ a {
 
 /* Flex - Images END  */
 
+/* Brand Logos start */
 .brands-div {
     width: 100%;
     height: 200px;
@@ -217,10 +220,9 @@ a {
     height: 100px;
 }
 
-/* newsletter-content  start */
+/* Brand Logos END  */
 
-
-
+/* newsletter-Banner Start */
 .banner-2 {
     background-image: url('https://fruto-theme.myshopify.com/cdn/shop/files/fruto-newslwtter-bg-alter_1512x.png?v=1637405855');
     background-repeat: no-repeat;
@@ -303,30 +305,21 @@ h4 {
     transition: all 0.5s;
 }
 
-/* newsletter-content  start */
+/* newsletter-Banner  End */
+
+/* Footer section start  */
 
 .footer-section {
     width: 100%;
     height: 500px;
-    /* border: 1px solid red; */
     position: relative;
     top: -100px;
     padding: 100px 0px;
     background-color: whitesmoke;
-}
-
-.container-4 {
-    /* border: 1px solid black; */
-
-
-}
-
-.row2 {
-    /* border: 1px solid yellow; */
+    /* #f7b111 */
 }
 
 .footer-content {
-    /* border: 1px solid red; */
     display: flex;
     margin: 0px 50px
         /* flex-wrap: wrap; */
@@ -339,7 +332,6 @@ a {
 .footer-logo {
     width: 350px;
     height: 220px;
-    /* border: 1px solid black; */
 }
 
 .organic-img {
@@ -377,7 +369,6 @@ li {
 .footer-links {
     width: 220px;
     height: 270px;
-    /* border: 1px solid red; */
     margin: 0px 19px;
 }
 
@@ -385,6 +376,7 @@ li {
     line-height: 22px;
     font-size: 15px;
     padding-bottom: 7px;
+
 }
 
 .about-us-links {
@@ -393,7 +385,7 @@ li {
     flex-direction: column;
     padding: 0px 7px;
     line-height: 16px;
-    font-size: small;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -404,13 +396,78 @@ li {
 }
 
 .links-hover:hover {
-    color: red;
+    color: #ea4126;
 }
 
-
+.icon:hover {
+    color: #ea4126;
+}
 
 .footer-contact-info {
     width: 350px;
     height: 220px;
-    /* border: 1px solid black; */
+}
+
+/* Footer links End  */
+
+/* footer-contact-info start*/
+i {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+span {
+    display: inline;
+}
+
+.contact-list {
+    display: flex;
+    margin: 35px 0px 0px 0px;
+}
+
+.throughWhatsapp {
+    position: relative;
+    font-size: small;
+    margin: 19px 0px 0px 7px;
+    bottom: 52px;
+    color: #000000;
+    font-weight: 100;
+}
+
+.whatsapp-number {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    bottom: 120px;
+    left: 6px;
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.whatsapp-number:hover {
+    color: #ea4126;
+}
+
+.address-p {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -134px;
+}
+
+.email {
+    display: inline;
+    position: relative;
+    top: -160px;
+}
+
+.email-id {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.email-id-hover:hover {
+    color: #ea4126;
+    cursor: pointer;
 }
